@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "",
+    "file": "",
+    "link": ""
+  },
+  "text": {
+    "title": "Plankton community network related to Carbon export",
+    "more": "",
+    "intro": "Plankton community network related to Carbon export\nbuild from eukaryotic, prokaryotic and viral subnetworks related to the carbon export. Blue, green and orange nodes represent eukaryotic, prokaryotic and viral lineages respectively. Black edges depict co-occurrence, whereas red ones are mutual exclusion between lineages.\n"
+  },
+  "legend": {
+    "edgeLabel": "co-occurrence (black) or mutual exclusion (red)",
+    "colorLabel": "green: prokaryotes, blue: eukaryotes, orange: viruses",
+    "nodeLabel": "Planktonic lineage"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "imageAttribute": false,
+    "groupByEdgeDirection": false
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 0.2,
+      "maxNodeSize": 7,
+      "maxEdgeSize": 0.5,
+      "minNodeSize": 1
+    },
+    "drawingProperties": {
+      "labelThreshold": 10,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 14,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}
